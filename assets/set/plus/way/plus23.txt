@@ -1,0 +1,400 @@
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333333353333555335353353333&route=59,&ctwMode=false
+724.587 827.065 0 674.822
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333335353333555333353333333&route=59,&ctwMode=false
+724.587 823.891 0 674.822
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353353533555333353333333333&route=59,&ctwMode=false
+724.587 821.284 0 674.822
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333353333555333353533333353&route=59,&ctwMode=false
+724.587 819.415 0 674.822
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333335333353333555333353353&route=59,&ctwMode=false
+724.587 713.116 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333333533353353333555333353&route=59,&ctwMode=false
+724.587 712.804 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333335333353353555333353333&route=59,&ctwMode=false
+691.359 712.721 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333333353353333555333353&route=59,&ctwMode=false
+691.359 712.683 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333333533333353333555353353&route=59,&ctwMode=false
+691.359 711.951 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333333333353353555333353333&route=59,&ctwMode=false
+691.359 711.602 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333333333353333555333353353&route=59,&ctwMode=false
+691.359 711.194 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333333333353333555353353&route=59,&ctwMode=false
+691.359 710.922 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335353333555333353333333&route=59,&ctwMode=false
+674.822 702.188 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333353333555335353333333&route=59,&ctwMode=false
+674.822 701.712 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333353333555333353533333333&route=59,&ctwMode=false
+674.822 701.325 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333353533555333353333333333&route=59,&ctwMode=false
+674.822 700.456 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333333333353333555335353&route=59,&ctwMode=false
+661.5 699.366 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533353353333555333353333333&route=59,&ctwMode=false
+661.5 699.187 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333333335353333555333353&route=59,&ctwMode=false
+661.5 698.765 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333335333353333555333353533&route=59,&ctwMode=false
+661.5 698.677 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333333333353333555333353533&route=59,&ctwMode=false
+661.5 698.551 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333333533333353333555335353&route=59,&ctwMode=false
+661.5 698.546 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333333333353533555333353333&route=59,&ctwMode=false
+597.188 698.472 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333333533335353333555333353&route=59,&ctwMode=false
+597.188 698.389 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333333335333353533555333353333&route=59,&ctwMode=false
+597.188 698.164 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333353333555333353353333333&route=59,&ctwMode=false
+597.188 697.418 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333353333555353353333333&route=59,&ctwMode=false
+597.188 697.321 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333353353555333353333333333&route=59,&ctwMode=false
+597.188 696.28 0 597.188
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353353335333355533335333333333&route=59,&ctwMode=false
+597.188 674.728 0 573.3
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333353333555333353333333&route=59,&ctwMode=false
+597.188 670.903 0 573.3
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335353353333555333353333333333&route=59,&ctwMode=false
+597.188 669.278 0 573.3
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533533335333355533335333333333&route=59,&ctwMode=false
+597.188 658.834 0 573.3
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533533333353333555333353333333&route=59,&ctwMode=false
+597.188 656.498 0 573.3
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533533353333555333353333333333&route=59,&ctwMode=false
+597.188 648.998 0 573.3
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353353355333533333333333355333&route=59,&ctwMode=false
+597.188 444.379 0.3241 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353353333553333335333553333333&route=59,&ctwMode=false
+597.188 442.121 0.3258 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353353355333533333355333333333&route=59,&ctwMode=false
+597.188 440.685 0.3313 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353533333553333355333333333353&route=59,&ctwMode=false
+597.188 438.672 0.3236 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353533333353333355333333333553&route=59,&ctwMode=false
+597.188 437.696 0.3242 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533533333353333355333333333553&route=59,&ctwMode=false
+597.188 436.757 0.3266 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335353355333553333333333353333&route=59,&ctwMode=false
+597.188 436.463 0.3296 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333533333353335535333333&route=59,&ctwMode=false
+597.188 427.453 0.4782 14.7875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335533333353335535333333&route=59,&ctwMode=false
+597.188 424.902 0.4813 14.7875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533333353333535333333&route=59,&ctwMode=false
+597.188 422.729 0.4841 14.7875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335333353333535533333333&route=59,&ctwMode=false
+597.188 419.006 0.4899 14.7875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335533353333535533333333&route=59,&ctwMode=false
+597.188 418.316 0.4908 14.7875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533353333535333333333&route=59,&ctwMode=false
+597.188 417.018 0.4921 14.7875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533335355333333333&route=59,&ctwMode=false
+597.188 404.873 0.4037 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533333333333355335&route=59,&ctwMode=false
+597.188 404.253 0.4044 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335533333353335533333335&route=59,&ctwMode=false
+597.188 404.002 0.4821 14.1094
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355335353333533333355333333333&route=59,&ctwMode=false
+597.188 404 0.4043 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533333355335333333&route=59,&ctwMode=false
+597.188 403.374 0.4048 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353335355333533333355333333333&route=59,&ctwMode=false
+597.188 402.963 0.4064 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533335333333353333&route=59,&ctwMode=false
+597.188 402.066 0.408 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355335533333333333353333&route=59,&ctwMode=false
+597.188 401.553 0.4072 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355353355333533333333333353333&route=59,&ctwMode=false
+597.188 401.524 0.41 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353353533333333333355333&route=59,&ctwMode=false
+597.188 401.483 0.4102 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533333333333355353&route=59,&ctwMode=false
+597.188 401.466 0.4098 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353333335333333533553&route=59,&ctwMode=false
+597.188 401.377 0.4083 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353533335333333333553&route=59,&ctwMode=false
+597.188 401.298 0.4095 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533335333333355333&route=59,&ctwMode=false
+597.188 401.256 0.4077 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333533333353335533333335&route=59,&ctwMode=false
+597.188 401.225 0.4852 14.1094
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553353553333335333353333333&route=59,&ctwMode=false
+597.188 401.047 0.4082 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533333353333533333335&route=59,&ctwMode=false
+597.188 401.032 0.4848 14.1094
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533353333333353333&route=59,&ctwMode=false
+597.188 400.918 0.4098 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553533335333333333553&route=59,&ctwMode=false
+597.188 400.873 0.4089 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553333335333333533553&route=59,&ctwMode=false
+597.188 400.491 0.4098 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553333335333333533353&route=59,&ctwMode=false
+597.188 400.491 0.4098 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353553333553333335333333333353&route=59,&ctwMode=false
+597.188 400.449 0.409 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355335533333333333355333&route=59,&ctwMode=false
+597.188 400.424 0.4107 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355335533333353333333333&route=59,&ctwMode=false
+597.188 400.382 0.4108 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353533553333335333333333553&route=59,&ctwMode=false
+597.188 400.321 0.4101 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533553333553333335333333333353&route=59,&ctwMode=false
+597.188 400.298 0.4102 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533553333353333335333333333553&route=59,&ctwMode=false
+597.188 400.278 0.4106 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355353533333353333333333&route=59,&ctwMode=false
+597.188 400.22 0.4116 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533333333333353353&route=59,&ctwMode=false
+597.188 400.184 0.4112 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553333335533353333333&route=59,&ctwMode=false
+597.188 400.024 0.4107 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355353533333355333333333&route=59,&ctwMode=false
+597.188 399.985 0.4124 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553533335333553333333&route=59,&ctwMode=false
+597.188 399.792 0.4125 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553533553333335333353333333&route=59,&ctwMode=false
+597.188 399.612 0.4131 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553533353333335333553333333&route=59,&ctwMode=false
+597.188 399.584 0.4114 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533353333553333335333553333333&route=59,&ctwMode=false
+597.188 399.499 0.4119 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553353335333353333333&route=59,&ctwMode=false
+597.188 399.416 0.4113 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533353333553333335333333333553&route=59,&ctwMode=false
+597.188 399.37 0.4121 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533553333553333335333353333333&route=59,&ctwMode=false
+597.188 399.31 0.4122 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553333335533553333333&route=59,&ctwMode=false
+597.188 399.239 0.4122 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353335533333333333355333&route=59,&ctwMode=false
+597.188 399.202 0.4125 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553533335333353333333&route=59,&ctwMode=false
+597.188 399.089 0.4125 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353333335533553333333&route=59,&ctwMode=false
+597.188 398.953 0.4127 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533353355333333333&route=59,&ctwMode=false
+597.188 398.941 0.4132 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553533353333335333333333553&route=59,&ctwMode=false
+597.188 398.922 0.4137 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533553333353333335333553333333&route=59,&ctwMode=false
+597.188 398.748 0.4131 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553533335333333333353&route=59,&ctwMode=false
+597.188 398.681 0.4134 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553333335333333353353&route=59,&ctwMode=false
+597.188 398.545 0.4133 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533353333335333533333&route=59,&ctwMode=false
+597.188 398.437 0.4894 14.1094
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335333353333335533533333&route=59,&ctwMode=false
+597.188 398.36 0.4902 14.1094
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553533553333335333333333353&route=59,&ctwMode=false
+597.188 397.926 0.4139 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353533553333335333553333333&route=59,&ctwMode=false
+597.188 397.52 0.4157 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353335355333533333333333355333&route=59,&ctwMode=false
+597.188 397.368 0.4144 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553353353333335333333333553&route=59,&ctwMode=false
+597.188 397.167 0.414 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533333333333355335&route=59,&ctwMode=false
+597.188 397.156 0.4146 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553333335353553333333&route=59,&ctwMode=false
+597.188 397.068 0.4146 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533335353333333333&route=59,&ctwMode=false
+597.188 397.019 0.415 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533333355335333333&route=59,&ctwMode=false
+597.188 396.886 0.4155 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335533353333335533533333&route=59,&ctwMode=false
+597.188 396.683 0.492 14.1094
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533333333333353335&route=59,&ctwMode=false
+597.188 396.658 0.4153 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533335333333355333&route=59,&ctwMode=false
+597.188 396.557 0.415 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353335533333355333333333&route=59,&ctwMode=false
+597.188 396.528 0.4147 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533333353353333333&route=59,&ctwMode=false
+597.188 396.449 0.4164 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353353553333335333333333553&route=59,&ctwMode=false
+597.188 396.34 0.4147 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353553333353333335333333333553&route=59,&ctwMode=false
+597.188 396.258 0.4147 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355353533333333333355333&route=59,&ctwMode=false
+597.188 396.131 0.4167 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533335355333333333&route=59,&ctwMode=false
+597.188 396.075 0.4152 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533333355353333333&route=59,&ctwMode=false
+597.188 396.019 0.4175 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353353335333333333553&route=59,&ctwMode=false
+597.188 396.016 0.4153 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353533335333553333333&route=59,&ctwMode=false
+597.188 395.974 0.4179 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553353335333333333553&route=59,&ctwMode=false
+597.188 395.933 0.4162 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355353353333533333333333355333&route=59,&ctwMode=false
+597.188 395.546 0.4182 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355335355333533333333333353333&route=59,&ctwMode=false
+597.188 395.529 0.4165 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553333335353353333333&route=59,&ctwMode=false
+597.188 395.329 0.4177 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355335355333533333353333333333&route=59,&ctwMode=false
+597.188 395.001 0.4179 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353353335333553333333&route=59,&ctwMode=false
+597.188 394.995 0.4183 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533333353335333333&route=59,&ctwMode=false
+597.188 394.935 0.4184 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355335353333533333333333355333&route=59,&ctwMode=false
+597.188 394.859 0.4182 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353333335353553333333&route=59,&ctwMode=false
+597.188 394.749 0.4181 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353553333553333335333353333333&route=59,&ctwMode=false
+597.188 394.626 0.4186 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355335533333355333333333&route=59,&ctwMode=false
+597.188 394.462 0.4192 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353353553333335333553333333&route=59,&ctwMode=false
+597.188 394.353 0.4194 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553353335333553333333&route=59,&ctwMode=false
+597.188 393.834 0.4198 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353553333353333335333553333333&route=59,&ctwMode=false
+597.188 393.796 0.4204 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553353553333335333333333353&route=59,&ctwMode=false
+597.188 393.596 0.4205 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533333333333355353&route=59,&ctwMode=false
+597.188 393.561 0.4205 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333353333553333335333333353553&route=59,&ctwMode=false
+597.188 393.411 0.4206 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355333533353353333333333&route=59,&ctwMode=false
+597.188 393.401 0.4212 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333535333353335533333333&route=59,&ctwMode=false
+597.188 393.276 0.4077 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333353333335333333353553&route=59,&ctwMode=false
+597.188 393.037 0.4211 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333553333553353335333333333353&route=59,&ctwMode=false
+597.188 393.009 0.4211 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333353333533353333333355333&route=59,&ctwMode=false
+597.188 392.895 0.4212 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533353333333355333&route=59,&ctwMode=false
+597.188 392.538 0.4218 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533333355353333333&route=59,&ctwMode=false
+597.188 392.447 0.4229 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=353333355333533353355333333333&route=59,&ctwMode=false
+597.188 392.132 0.422 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355333355353533333333333353333&route=59,&ctwMode=false
+597.188 392.068 0.4226 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355353353333533333355333333333&route=59,&ctwMode=false
+597.188 391.6 0.423 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=355353355333533333353333333333&route=59,&ctwMode=false
+597.188 391.549 0.4229 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533535533353333333333335333&route=59,&ctwMode=false
+597.188 390.882 0.4101 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333535333353333333335533&route=59,&ctwMode=false
+597.188 388.958 0.4131 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533535533353333335333333333&route=59,&ctwMode=false
+597.188 385.827 0.4195 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333533333353333535335333&route=59,&ctwMode=false
+597.188 384.149 0.4808 13.5
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533333533333353335535335333&route=59,&ctwMode=false
+597.188 382.037 0.4832 13.5
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533533335333355333333333335533&route=59,&ctwMode=false
+597.188 381.522 0.4206 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=533533335533355333333333335333&route=59,&ctwMode=false
+597.188 380.708 0.4213 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335533333353333535335333&route=59,&ctwMode=false
+597.188 380.396 0.486 13.5
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335533353333535333333533&route=59,&ctwMode=false
+597.188 377.832 0.4903 13.5
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335333353333535533333533&route=59,&ctwMode=false
+597.188 376.406 0.4924 13.5
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335333353333535333333533&route=59,&ctwMode=false
+597.188 376.196 0.493 13.5
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533353333335335333333&route=59,&ctwMode=false
+597.188 358.204 0.4812 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335535353333335533333333&route=59,&ctwMode=false
+597.188 357.522 0.4826 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535335333353333333333335533&route=59,&ctwMode=false
+597.188 356.839 0.4828 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335333353333333333335535&route=59,&ctwMode=false
+597.188 356.786 0.4838 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335533353333333333335535&route=59,&ctwMode=false
+597.188 356.354 0.4838 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535335533353333333333335333&route=59,&ctwMode=false
+597.188 356.038 0.4843 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335533353333335535333333&route=59,&ctwMode=false
+597.188 355.977 0.4842 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535333533333353333333335533&route=59,&ctwMode=false
+597.188 355.927 0.4809 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333535335533333353333333335533&route=59,&ctwMode=false
+597.188 355.73 0.4804 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533333353333333333535&route=59,&ctwMode=false
+597.188 355.417 0.4808 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533353333333333335335&route=59,&ctwMode=false
+597.188 355.186 0.4859 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535335533333353333533333333&route=59,&ctwMode=false
+597.188 354.946 0.4819 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335535353333333333335533&route=59,&ctwMode=false
+597.188 354.632 0.4865 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533333353333333533533&route=59,&ctwMode=false
+597.188 354.39 0.4865 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335333353333335535333333&route=59,&ctwMode=false
+597.188 353.543 0.4883 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535335333353333335533333333&route=59,&ctwMode=false
+597.188 353.438 0.4886 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335533333353333333335535&route=59,&ctwMode=false
+597.188 353.341 0.4846 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533335533333353333533333333&route=59,&ctwMode=false
+597.188 353.281 0.4888 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535335533353333335333333333&route=59,&ctwMode=false
+597.188 353.259 0.4884 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335533333353333333535533&route=59,&ctwMode=false
+597.188 353.21 0.4896 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333535335533333353335533333333&route=59,&ctwMode=false
+597.188 353.041 0.485 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535333533333353335533333333&route=59,&ctwMode=false
+597.188 352.817 0.4847 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335535335533333353333333333533&route=59,&ctwMode=false
+597.188 352.721 0.4848 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533333533333353335533333333&route=59,&ctwMode=false
+573.3 352.657 0.4906 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533333353533533333333&route=59,&ctwMode=false
+573.3 352.612 0.4897 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533535533333353333333335533&route=59,&ctwMode=false
+573.3 352.595 0.4894 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333533333353535533333333&route=59,&ctwMode=false
+573.3 352.457 0.4895 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333533333353333333535533&route=59,&ctwMode=false
+573.3 352.273 0.4903 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533335333353333335533333333&route=59,&ctwMode=false
+573.3 352.161 0.4877 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533333533333353333333335535&route=59,&ctwMode=false
+573.3 352.085 0.4853 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533535533333353335533333333&route=59,&ctwMode=false
+573.3 352.027 0.4912 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335333335533353333333333535533&route=59,&ctwMode=false
+573.3 352.021 0.4864 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535333335533353333335533333333&route=59,&ctwMode=false
+573.3 351.724 0.487 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533335533333353333333333533&route=59,&ctwMode=false
+573.3 351.389 0.4921 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533335333353333333333335533&route=59,&ctwMode=false
+573.3 351.239 0.4878 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335333353333333333535533&route=59,&ctwMode=false
+573.3 350.934 0.4891 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335533353333333333535333&route=59,&ctwMode=false
+573.3 350.557 0.4896 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533335533353333333333335333&route=59,&ctwMode=false
+573.3 350.506 0.4905 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533333533333353333333335533&route=59,&ctwMode=false
+573.3 350.434 0.4927 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=333533335533333353535533333333&route=59,&ctwMode=false
+573.3 349.714 0.4942 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535333335533353333333333335533&route=59,&ctwMode=false
+573.3 349.16 0.4922 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=535533335533353333335333333333&route=59,&ctwMode=false
+573.3 348.861 0.4916 12.1875
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533335335353333333333335533&route=59,&ctwMode=false
+573.3 345.512 0.4817 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533535533333353333533333333&route=59,&ctwMode=false
+573.3 345.479 0.4825 11.7
+http://serizawa.web5.jp/puzzdra_theory_maker/index.html?layout=335533535533333353333333333533&route=59,&ctwMode=false
+573.3 343.851 0.4845 11.7
