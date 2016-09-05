@@ -1,7 +1,7 @@
 
-var orb_size =25;
-var Nmin_canvas = 6;
-var Nmax_canvas = 25;
+var orb_size =50;
+var Nmin_canvas = 7;
+var Nmax_canvas = 23;
 var margin_width = 0;
 var margin_height= 20;
 var B_width=6;
@@ -13,6 +13,14 @@ var nKepri = 4;
 window.addEventListener('load',init);
 
 function init(){
+  canvas_setume=document.getElementById("canvas26");
+  var ctx =canvas_setume.getContext('2d');
+  ctx.font = "18px 'MS ゴシック'";
+  ctx.fillStyle ="white";
+  ctx.fillText('攻撃色-他色',margin_width,margin_height);
+  ctx.fillText("1.平均倍率",margin_width,margin_height+55);
+  ctx.fillText("2.盤面倍率より低い倍率となる割合",margin_width,margin_height+75);
+  ctx.fillText("3.最低倍率",margin_width,margin_height+95);
   Asset.loadAssets(function(){
     requestAnimationFrame(update);
   })
@@ -33,12 +41,17 @@ function update(){
   }
 }
 
+function setume(){
+
+}
 function render(index,canvas,ctx,board){
   //全体をクリア
   ctx.clearRect(0, 0, canvas.width, canvas.height);
-
-  ctx.font = "18px 'ＭＳ Ｐゴシック'"
-  ctx.strokeText(''+(B_width*B_height-index)+'-'+index,margin_width,margin_height);
+  ctx.font = "18px Comic Sans MS";
+  ctx.fillText(''+(B_width*B_height-index)+'-'+index,margin_width,margin_height);
+  ctx.font = "15px Comic Sans MS";
+  ctx.fillStyle ="white";
+  ctx.fillText(BoardMgr.scores[index],margin_width,margin_height+15);
   //ドロップを表示
 
   for(var height = 0; height < board.height ; height++){
@@ -129,7 +142,6 @@ Asset.assets = [
   { type: 'image', name: 'D', src: 'assets/D.gif'},
   { type: 'image', name: 'B1', src: 'assets/B1.png'},
   { type: 'image', name: 'B2', src: 'assets/B2.png'},
-  { type: 'canvas', name: 'canvas6', value: '6'},
   { type: 'canvas', name: 'canvas7', value: '7'},
   { type: 'canvas', name: 'canvas8', value: '8'},
   { type: 'canvas', name: 'canvas9', value: '9'},
@@ -147,48 +159,40 @@ Asset.assets = [
   { type: 'canvas', name: 'canvas21',value: '21'},
   { type: 'canvas', name: 'canvas22',value: '22'},
   { type: 'canvas', name: 'canvas23',value: '23'},
-  { type: 'canvas', name: 'canvas24',value: '24'},
-  { type: 'canvas', name: 'canvas25',value: '25'},
-  { type: 'board', name: 'board6', src: 'assets/set/plus/way/plus6_board.dat'},
-  { type: 'board', name: 'board7', src: 'assets/set/plus/way/plus7_board.dat'},
-  { type: 'board', name: 'board8', src: 'assets/set/plus/way/plus8_board.dat'},
-  { type: 'board', name: 'board9', src: 'assets/set/plus/way/plus9_board.dat'},
-  { type: 'board', name: 'board10',src: 'assets/set/plus/way/plus10_board.dat'},
-  { type: 'board', name: 'board11',src: 'assets/set/plus/way/plus11_board.dat'},
-  { type: 'board', name: 'board12',src: 'assets/set/plus/way/plus12_board.dat'},
-  { type: 'board', name: 'board13',src: 'assets/set/plus/way/plus13_board.dat'},
-  { type: 'board', name: 'board14',src: 'assets/set/plus/way/plus14_board.dat'},
-  { type: 'board', name: 'board15',src: 'assets/set/plus/way/plus15_board.dat'},
-  { type: 'board', name: 'board16',src: 'assets/set/plus/way/plus16_board.dat'},
-  { type: 'board', name: 'board17',src: 'assets/set/plus/way/plus17_board.dat'},
-  { type: 'board', name: 'board18',src: 'assets/set/plus/way/plus18_board.dat'},
-  { type: 'board', name: 'board19',src: 'assets/set/plus/way/plus19_board.dat'},
-  { type: 'board', name: 'board20',src: 'assets/set/plus/way/plus20_board.dat'},
-  { type: 'board', name: 'board21',src: 'assets/set/plus/way/plus21_board.dat'},
-  { type: 'board', name: 'board22',src: 'assets/set/plus/way/plus22_board.dat'},
-  { type: 'board', name: 'board23',src: 'assets/set/plus/way/plus23_board.dat'},
-  { type: 'board', name: 'board24',src: 'assets/set/plus/way/plus24_board.dat'},
-  { type: 'board', name: 'board25',src: 'assets/set/plus/way/plus25_board.dat'},
-  { type: 'score', name: 'score6', src: 'assets/set/plus/way/plus6_score.dat'},
-  { type: 'score', name: 'score7', src: 'assets/set/plus/way/plus7_score.dat'},
-  { type: 'score', name: 'score8', src: 'assets/set/plus/way/plus8_score.dat'},
-  { type: 'score', name: 'score9', src: 'assets/set/plus/way/plus9_score.dat'},
-  { type: 'score', name: 'score10',src: 'assets/set/plus/way/plus10_score.dat'},
-  { type: 'score', name: 'score11',src: 'assets/set/plus/way/plus11_score.dat'},
-  { type: 'score', name: 'score12',src: 'assets/set/plus/way/plus12_score.dat'},
-  { type: 'score', name: 'score13',src: 'assets/set/plus/way/plus13_score.dat'},
-  { type: 'score', name: 'score14',src: 'assets/set/plus/way/plus14_score.dat'},
-  { type: 'score', name: 'score15',src: 'assets/set/plus/way/plus15_score.dat'},
-  { type: 'score', name: 'score16',src: 'assets/set/plus/way/plus16_score.dat'},
-  { type: 'score', name: 'score17',src: 'assets/set/plus/way/plus17_score.dat'},
-  { type: 'score', name: 'score18',src: 'assets/set/plus/way/plus18_score.dat'},
-  { type: 'score', name: 'score19',src: 'assets/set/plus/way/plus19_score.dat'},
-  { type: 'score', name: 'score20',src: 'assets/set/plus/way/plus20_score.dat'},
-  { type: 'score', name: 'score21',src: 'assets/set/plus/way/plus21_score.dat'},
-  { type: 'score', name: 'score22',src: 'assets/set/plus/way/plus22_score.dat'},
-  { type: 'score', name: 'score23',src: 'assets/set/plus/way/plus23_score.dat'},
-  { type: 'score', name: 'score24',src: 'assets/set/plus/way/plus24_score.dat'},
-  { type: 'score', name: 'score25',src: 'assets/set/plus/way/plus25_score.dat'},
+  { type: 'board', name: 'board7', src: 'assets/set/shogun/shogun7_line_board.dat'},
+  { type: 'board', name: 'board8', src: 'assets/set/shogun/shogun8_line_board.dat'},
+  { type: 'board', name: 'board9', src: 'assets/set/shogun/shogun9_line_board.dat'},
+  { type: 'board', name: 'board10',src: 'assets/set/shogun/shogun10_line_board.dat'},
+  { type: 'board', name: 'board11',src: 'assets/set/shogun/shogun11_line_board.dat'},
+  { type: 'board', name: 'board12',src: 'assets/set/shogun/shogun12_line_board.dat'},
+  { type: 'board', name: 'board13',src: 'assets/set/shogun/shogun13_line_board.dat'},
+  { type: 'board', name: 'board14',src: 'assets/set/shogun/shogun14_line_board.dat'},
+  { type: 'board', name: 'board15',src: 'assets/set/shogun/shogun15_line_board.dat'},
+  { type: 'board', name: 'board16',src: 'assets/set/shogun/shogun16_line_board.dat'},
+  { type: 'board', name: 'board17',src: 'assets/set/shogun/shogun17_line_board.dat'},
+  { type: 'board', name: 'board18',src: 'assets/set/shogun/shogun18_line_board.dat'},
+  { type: 'board', name: 'board19',src: 'assets/set/shogun/shogun19_line_board.dat'},
+  { type: 'board', name: 'board20',src: 'assets/set/shogun/shogun20_line_board.dat'},
+  { type: 'board', name: 'board21',src: 'assets/set/shogun/shogun21_line_board.dat'},
+  { type: 'board', name: 'board22',src: 'assets/set/shogun/shogun22_line_board.dat'},
+  { type: 'board', name: 'board23',src: 'assets/set/shogun/shogun23_line_board.dat'},
+  { type: 'score', name: 'score7', src: 'assets/set/shogun/shogun7_line_score.dat'},
+  { type: 'score', name: 'score8', src: 'assets/set/shogun/shogun8_line_score.dat'},
+  { type: 'score', name: 'score9', src: 'assets/set/shogun/shogun9_line_score.dat'},
+  { type: 'score', name: 'score10',src: 'assets/set/shogun/shogun10_line_score.dat'},
+  { type: 'score', name: 'score11',src: 'assets/set/shogun/shogun11_line_score.dat'},
+  { type: 'score', name: 'score12',src: 'assets/set/shogun/shogun12_line_score.dat'},
+  { type: 'score', name: 'score13',src: 'assets/set/shogun/shogun13_line_score.dat'},
+  { type: 'score', name: 'score14',src: 'assets/set/shogun/shogun14_line_score.dat'},
+  { type: 'score', name: 'score15',src: 'assets/set/shogun/shogun15_line_score.dat'},
+  { type: 'score', name: 'score16',src: 'assets/set/shogun/shogun16_line_score.dat'},
+  { type: 'score', name: 'score17',src: 'assets/set/shogun/shogun17_line_score.dat'},
+  { type: 'score', name: 'score18',src: 'assets/set/shogun/shogun18_line_score.dat'},
+  { type: 'score', name: 'score19',src: 'assets/set/shogun/shogun19_line_score.dat'},
+  { type: 'score', name: 'score20',src: 'assets/set/shogun/shogun20_line_score.dat'},
+  { type: 'score', name: 'score21',src: 'assets/set/shogun/shogun21_line_score.dat'},
+  { type: 'score', name: 'score22',src: 'assets/set/shogun/shogun22_line_score.dat'},
+  { type: 'score', name: 'score23',src: 'assets/set/shogun/shogun23_line_score.dat'},
 ];
 //読み込んだ画像
 Asset.images ={};
@@ -230,6 +234,16 @@ Asset.loadAssets = function(onComplete){
      _canvas.height= _margin_height*2 + B_height*orb_size;
     Asset.canvases[asset.name] = _canvas;
     Asset.ctxs[asset.name] = _ctx;
+
+//    var puzzleButton = document.createElement("input");
+//
+//    puzzleButton.type="button";
+//    puzzleButton.id='btn'+asset.value;
+//    puzzleButton.name=asset.name+'btn';
+//    puzzleButton.value='puzzle!';
+//    puzzleButton.style='position:absolute; top:10px;left:50px';
+//    puzzleButton.innerHTML="click!";
+//    _canvas.appendChild(puzzleButton);
     onLoad();
   };
 
@@ -241,7 +255,6 @@ Asset.loadAssets = function(onComplete){
 
   Asset._loadScore= function(asset, onLoad){
     loadTextFile(asset.src,Asset.scores,asset.name);
-    console.log(Asset.scores[asset.name]);
     onLoad();
   };
   //すべてのアセットを読み込む
@@ -265,17 +278,17 @@ Asset.loadAssets = function(onComplete){
 
 }
 
-function stepbystep_without_otikon(){
-  if(step_count%3 == 0){
-    testBoard.elace(isKepri,nKepri,testBoard.result);
-  }else if(step_count%3 ==1){
-    testBoard.falling();
+function stepbystep_without_otikon(brd){
+  if(brd.step_count%3 == 0){
+    brd.elace(isKepri,nKepri,brd.result);
+  }else if(brd.step_count%3 ==1){
+    brd.falling();
   }else{
-    step_count+=1;
-    stepbystep_without_otikon();
-    step_count-=1;
+    brd.step_count+=1;
+    stepbystep_without_otikon(brd);
+    brd.step_count-=1;
   }
-  step_count+=1;
+  brd.step_count+=1;
 }
 
 // HTTP通信用、共通関数
@@ -326,3 +339,14 @@ function displayData()
 }
 
 
+function OnClickButton(button){
+  var num = button.id.match(/[0-9]+\.?[0-9]*/g);
+  var query = button.id.replace(/[0-9]/g,'');
+  if(query == 'prev'){
+    BoardMgr.prev(num);
+  }else if(query == 'next'){
+    BoardMgr.next(num);
+  }else if(query == 'button'){
+ stepbystep_without_otikon(BoardMgr.boards[num]);
+  }
+}

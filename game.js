@@ -12,6 +12,7 @@
     this.isBefore= false;
     this.beforeX = 0;
     this.beforeY = 0;
+    this.step_count= 0;
     this.result ={};
     this.result.combo =  0;
     this.result.dell = new Array();
@@ -30,7 +31,16 @@
   }
 
   var p = board.prototype;
-
+p.setBoard = function(src)
+{
+  if(src != -1)this.boardURL=src;
+  this.step_count= 0;
+  for(var width = 0; width < this.width ; width++){
+    for(var height =0; height<this.height ; height++){
+      this.cell[width][height]=icolor[this.boardURL.charAt(height*this.width+width)];
+    }
+  }
+}
   p.init = function(){
     this.height = 5;
     this.width = 6;

@@ -2,38 +2,147 @@
 <html lang="ja">
   <head>
     <meta charset ="utf-8">
-    <title>火力配置を表示するページ</title>
+    <title>火力配置鑑賞</title>
     <script src="game.js"></script>
     <script src="main.js"></script>
     <link rel="stylesheet" href="default.css">
   </head>
   <body>
-    <canvas id="canvas6" width="90" height="75"></canvas>
-    <canvas id="canvas7" width="90" height="75"></canvas>
-    <canvas id="canvas8" width="90" height="75"></canvas>
-    <canvas id="canvas9" width="90" height="75"></canvas>
+    <h1>悪魔将軍の火力配置一覧</h1>
+    たくさんの種類がある火力配置を目で見て楽しむウェブページです。
+    <h2>
+    <p>
+    ボタンの説明
+    <ul >
+      <li>puzzleを押すとパズルが進みます。</li>
+      <li>prevで前の配置に移動します。</li>
+      <li>nextで次の配置に移動します。</li>
+    </ul >
+    数値の説明
+    <ol>
+      <li>目覚めを使っていない6色のダンジョンにおける平均倍率</li>
+      <li>妨害を食らって倍率が低くなる割合</li>
+      <li>一番最悪なケースでの倍率</li>
+    </ol>
+    注意)今回は列10個の場合で倍率を計算しています。
+    </h2>
+    <p>
+      <div>
+      <div>
+        <input onclick=""  id="button26" type="button" value="puzzle"></input>
+        <input onclick=""  id="prev26" type="button" value="prev"></input>
+        <input onclick=""  id="next26" type="button" value="next"></input>
+        <canvas id="canvas26" width="300" height="300"></canvas>
+      </div>
+      </div>
     <br>
-    <canvas id="canvas10"width="90" height="75"></canvas>
-    <canvas id="canvas11"width="90" height="75"></canvas>
-    <canvas id="canvas12"width="90" height="75"></canvas>
-    <canvas id="canvas13"width="90" height="75"></canvas>
     <br>
-    <canvas id="canvas14"width="90" height="75"></canvas>
-    <canvas id="canvas15"width="90" height="75"></canvas>
-    <canvas id="canvas16"width="90" height="75"></canvas>
-    <canvas id="canvas18"width="90" height="75"></canvas>
+    以下、属性強化10個で計算した悪魔将軍の火力配置です。
+    <div class="boxContainer">
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button7" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev7" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next7" type="button" value="next"></input>
+        <canvas id="canvas7" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button8" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev8" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next8" type="button" value="next"></input>
+        <canvas id="canvas8" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button9" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev9" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next9" type="button" value="next"></input>
+        <canvas id="canvas9" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button10" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev10" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next10" type="button" value="next"></input>
+        <canvas id="canvas10" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button11" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev11" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next11" type="button" value="next"></input>
+        <canvas id="canvas11" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button12" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev12" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next12" type="button" value="next"></input>
+        <canvas id="canvas12" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button13" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev13" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next13" type="button" value="next"></input>
+        <canvas id="canvas13" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button14" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev14" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next14" type="button" value="next"></input>
+        <canvas id="canvas14" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button15" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev15" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next15" type="button" value="next"></input>
+        <canvas id="canvas15" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button16" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev16" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next16" type="button" value="next"></input>
+        <canvas id="canvas16" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button17" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev17" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next17" type="button" value="next"></input>
+        <canvas id="canvas17" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button18" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev18" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next18" type="button" value="next"></input>
+        <canvas id="canvas18" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button19" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev19" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next19" type="button" value="next"></input>
+        <canvas id="canvas19" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button20" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev20" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next20" type="button" value="next"></input>
+        <canvas id="canvas20" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button21" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev21" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next21" type="button" value="next"></input>
+        <canvas id="canvas21" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button22" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev22" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next22" type="button" value="next"></input>
+        <canvas id="canvas22" width="90" height="75"></canvas>
+      </div>
+      <div class="box">
+        <input onclick="OnClickButton(this)"  id="button23" type="button" value="puzzle"></input>
+        <input onclick="OnClickButton(this)"  id="prev23" type="button" value="prev"></input>
+        <input onclick="OnClickButton(this)"  id="next23" type="button" value="next"></input>
+        <canvas id="canvas23" width="90" height="75"></canvas>
+      </div>
+    </div>
     <br>
-    <canvas id="canvas17"width="90" height="75"></canvas>
-    <canvas id="canvas19"width="90" height="75"></canvas>
-    <canvas id="canvas20"width="90" height="75"></canvas>
-    <canvas id="canvas21"width="90" height="75"></canvas>
-    <br>
-    <canvas id="canvas22"width="90" height="75"></canvas>
-    <canvas id="canvas23"width="90" height="75"></canvas>
-    <canvas id="canvas24"width="90" height="75"></canvas>
-    <canvas id="canvas25"width="90" height="75"></canvas>
-    <br>
-    <input type="button" value="step by step without filling" onclick="stepbystep_without_otikon()">
     <div id="resultData"></div>
   </body>
 </html>
