@@ -13,13 +13,10 @@ var nKepri = 4;
 window.addEventListener('load',init);
 
 function init(){
-  testBoard = new board('545545555455544545455545554545');
-  testBoard.init();
   Asset.loadAssets(function(){
     requestAnimationFrame(update);
   })
 }
-
 
 function update(){
   requestAnimationFrame(update);
@@ -28,8 +25,9 @@ function update(){
     switch(iasset.type){
       case 'canvas':
         var name = iasset.name;
-        render(iasset.value,Asset.canvases[name],Asset.ctxs[name],testBoard);
-        render_orbs(Asset.canvases[name],Asset.ctxs[name],testBoard);
+        var value =iasset.value;
+        render(iasset.value,Asset.canvases[name],Asset.ctxs[name],BoardMgr.boards[value]);
+        render_orbs(Asset.canvases[name],Asset.ctxs[name],BoardMgr.boards[value]);
         break;
     }
   }
@@ -72,6 +70,50 @@ function render_orbs(canvas,ctx,board){
     }
 }
 
+////////////////BoardMgr////////////////////
+var BoardMgr ={};
+BoardMgr.boards =new Array();
+BoardMgr.scores =new Array();
+BoardMgr.index =new Array();
+
+BoardMgr.init = function(Asset){
+  for(var i=Nmin_canvas;i<=Nmax_canvas;i++){
+    BoardMgr.index[i] =0;
+    var iboard = "board"+i;
+    var iscore= "score"+i;
+    console.log(Asset.boards[iboard][BoardMgr.index[i]]);
+    BoardMgr.boards[i] = new board(Asset.boards[iboard][BoardMgr.index[i]]);
+    BoardMgr.boards[i].init();
+    BoardMgr.scores[i] = Asset.scores[iscore][BoardMgr.index[i]];
+  }
+}
+
+BoardMgr.set = function(i){
+    var iboard = "board"+i;
+    var iscore= "score"+i;
+    BoardMgr.boards[i].setBoard(Asset.boards[iboard][BoardMgr.index[i]]);
+    BoardMgr.scores[i] = Asset.scores[iscore][BoardMgr.index[i]];
+}
+BoardMgr.next = function(i){
+    var iboard = "board"+i;
+    if(Asset.boards[iboard].length<=BoardMgr.index[i]){
+      return false;
+    }
+    BoardMgr.index[i]++;
+    BoardMgr.set(i);
+    return true;
+}
+
+BoardMgr.prev= function(i){
+    var iboard = "board"+i;
+    if(BoardMgr.index[i]<=0){
+      return false;
+    }
+    BoardMgr.index[i]--;
+    BoardMgr.set(i);
+    return true;
+}
+
 //////画像読み込みの処理///////////
 
 var Asset ={};
@@ -107,46 +149,46 @@ Asset.assets = [
   { type: 'canvas', name: 'canvas23',value: '23'},
   { type: 'canvas', name: 'canvas24',value: '24'},
   { type: 'canvas', name: 'canvas25',value: '25'},
-//  { type: 'board', name: 'board6', src: 'assets/set/plus/way/plus6_board.dat'},
-//  { type: 'board', name: 'board7', src: 'assets/set/plus/way/plus7_board.dat'},
-//  { type: 'board', name: 'board8', src: 'assets/set/plus/way/plus8_board.dat'},
-//  { type: 'board', name: 'board9', src: 'assets/set/plus/way/plus9_board.dat'},
-//  { type: 'board', name: 'board10',src: 'assets/set/plus/way/plus10_board.dat'},
-//  { type: 'board', name: 'board11',src: 'assets/set/plus/way/plus11_board.dat'},
-//  { type: 'board', name: 'board12',src: 'assets/set/plus/way/plus12_board.dat'},
-//  { type: 'board', name: 'board13',src: 'assets/set/plus/way/plus13_board.dat'},
-//  { type: 'board', name: 'board14',src: 'assets/set/plus/way/plus14_board.dat'},
-//  { type: 'board', name: 'board15',src: 'assets/set/plus/way/plus15_board.dat'},
-//  { type: 'board', name: 'board16',src: 'assets/set/plus/way/plus16_board.dat'},
-//  { type: 'board', name: 'board17',src: 'assets/set/plus/way/plus17_board.dat'},
-//  { type: 'board', name: 'board18',src: 'assets/set/plus/way/plus18_board.dat'},
-//  { type: 'board', name: 'board19',src: 'assets/set/plus/way/plus19_board.dat'},
-//  { type: 'board', name: 'board20',src: 'assets/set/plus/way/plus20_board.dat'},
-//  { type: 'board', name: 'board21',src: 'assets/set/plus/way/plus21_board.dat'},
-//  { type: 'board', name: 'board22',src: 'assets/set/plus/way/plus22_board.dat'},
-//  { type: 'board', name: 'board23',src: 'assets/set/plus/way/plus23_board.dat'},
-//  { type: 'board', name: 'board24',src: 'assets/set/plus/way/plus24_board.dat'},
-//  { type: 'board', name: 'board25',src: 'assets/set/plus/way/plus25_board.dat'},
-//  { type: 'score', name: 'score6', src: 'assets/set/plus/way/plus6_score.dat'},
-//  { type: 'score', name: 'score7', src: 'assets/set/plus/way/plus7_score.dat'},
-//  { type: 'score', name: 'score8', src: 'assets/set/plus/way/plus8_score.dat'},
-//  { type: 'score', name: 'score9', src: 'assets/set/plus/way/plus9_score.dat'},
-//  { type: 'score', name: 'score10',src: 'assets/set/plus/way/plus10_score.dat'},
-//  { type: 'score', name: 'score11',src: 'assets/set/plus/way/plus11_score.dat'},
-//  { type: 'score', name: 'score12',src: 'assets/set/plus/way/plus12_score.dat'},
-//  { type: 'score', name: 'score13',src: 'assets/set/plus/way/plus13_score.dat'},
-//  { type: 'score', name: 'score14',src: 'assets/set/plus/way/plus14_score.dat'},
-//  { type: 'score', name: 'score15',src: 'assets/set/plus/way/plus15_score.dat'},
-//  { type: 'score', name: 'score16',src: 'assets/set/plus/way/plus16_score.dat'},
-//  { type: 'score', name: 'score17',src: 'assets/set/plus/way/plus17_score.dat'},
-//  { type: 'score', name: 'score18',src: 'assets/set/plus/way/plus18_score.dat'},
-//  { type: 'score', name: 'score19',src: 'assets/set/plus/way/plus19_score.dat'},
-//  { type: 'score', name: 'score20',src: 'assets/set/plus/way/plus20_score.dat'},
-//  { type: 'score', name: 'score21',src: 'assets/set/plus/way/plus21_score.dat'},
-//  { type: 'score', name: 'score22',src: 'assets/set/plus/way/plus22_score.dat'},
-//  { type: 'score', name: 'score23',src: 'assets/set/plus/way/plus23_score.dat'},
-//  { type: 'score', name: 'score24',src: 'assets/set/plus/way/plus24_score.dat'},
-//  { type: 'score', name: 'score25',src: 'assets/set/plus/way/plus25_score.dat'},
+  { type: 'board', name: 'board6', src: 'assets/set/plus/way/plus6_board.dat'},
+  { type: 'board', name: 'board7', src: 'assets/set/plus/way/plus7_board.dat'},
+  { type: 'board', name: 'board8', src: 'assets/set/plus/way/plus8_board.dat'},
+  { type: 'board', name: 'board9', src: 'assets/set/plus/way/plus9_board.dat'},
+  { type: 'board', name: 'board10',src: 'assets/set/plus/way/plus10_board.dat'},
+  { type: 'board', name: 'board11',src: 'assets/set/plus/way/plus11_board.dat'},
+  { type: 'board', name: 'board12',src: 'assets/set/plus/way/plus12_board.dat'},
+  { type: 'board', name: 'board13',src: 'assets/set/plus/way/plus13_board.dat'},
+  { type: 'board', name: 'board14',src: 'assets/set/plus/way/plus14_board.dat'},
+  { type: 'board', name: 'board15',src: 'assets/set/plus/way/plus15_board.dat'},
+  { type: 'board', name: 'board16',src: 'assets/set/plus/way/plus16_board.dat'},
+  { type: 'board', name: 'board17',src: 'assets/set/plus/way/plus17_board.dat'},
+  { type: 'board', name: 'board18',src: 'assets/set/plus/way/plus18_board.dat'},
+  { type: 'board', name: 'board19',src: 'assets/set/plus/way/plus19_board.dat'},
+  { type: 'board', name: 'board20',src: 'assets/set/plus/way/plus20_board.dat'},
+  { type: 'board', name: 'board21',src: 'assets/set/plus/way/plus21_board.dat'},
+  { type: 'board', name: 'board22',src: 'assets/set/plus/way/plus22_board.dat'},
+  { type: 'board', name: 'board23',src: 'assets/set/plus/way/plus23_board.dat'},
+  { type: 'board', name: 'board24',src: 'assets/set/plus/way/plus24_board.dat'},
+  { type: 'board', name: 'board25',src: 'assets/set/plus/way/plus25_board.dat'},
+  { type: 'score', name: 'score6', src: 'assets/set/plus/way/plus6_score.dat'},
+  { type: 'score', name: 'score7', src: 'assets/set/plus/way/plus7_score.dat'},
+  { type: 'score', name: 'score8', src: 'assets/set/plus/way/plus8_score.dat'},
+  { type: 'score', name: 'score9', src: 'assets/set/plus/way/plus9_score.dat'},
+  { type: 'score', name: 'score10',src: 'assets/set/plus/way/plus10_score.dat'},
+  { type: 'score', name: 'score11',src: 'assets/set/plus/way/plus11_score.dat'},
+  { type: 'score', name: 'score12',src: 'assets/set/plus/way/plus12_score.dat'},
+  { type: 'score', name: 'score13',src: 'assets/set/plus/way/plus13_score.dat'},
+  { type: 'score', name: 'score14',src: 'assets/set/plus/way/plus14_score.dat'},
+  { type: 'score', name: 'score15',src: 'assets/set/plus/way/plus15_score.dat'},
+  { type: 'score', name: 'score16',src: 'assets/set/plus/way/plus16_score.dat'},
+  { type: 'score', name: 'score17',src: 'assets/set/plus/way/plus17_score.dat'},
+  { type: 'score', name: 'score18',src: 'assets/set/plus/way/plus18_score.dat'},
+  { type: 'score', name: 'score19',src: 'assets/set/plus/way/plus19_score.dat'},
+  { type: 'score', name: 'score20',src: 'assets/set/plus/way/plus20_score.dat'},
+  { type: 'score', name: 'score21',src: 'assets/set/plus/way/plus21_score.dat'},
+  { type: 'score', name: 'score22',src: 'assets/set/plus/way/plus22_score.dat'},
+  { type: 'score', name: 'score23',src: 'assets/set/plus/way/plus23_score.dat'},
+  { type: 'score', name: 'score24',src: 'assets/set/plus/way/plus24_score.dat'},
+  { type: 'score', name: 'score25',src: 'assets/set/plus/way/plus25_score.dat'},
 ];
 //読み込んだ画像
 Asset.images ={};
@@ -165,6 +207,7 @@ Asset.loadAssets = function(onComplete){
   var onLoad = function(){
     loadCount++;
     if(loadCount >= total){
+      BoardMgr.init(Asset);
       onComplete();
     }
   };
@@ -191,26 +234,14 @@ Asset.loadAssets = function(onComplete){
   };
 
   Asset._loadBoard= function(asset, onLoad){
-    var data = new XMLHttpRequest();
-    data.open("GET",asset.src,false);
-    data.send(null);
-    var lines = data.responseText.split("\n");
-    Asset.boards[asset.name]={};
-    for(var i=0;i<lines.length;i++){
-      Asset.boards[asset.name][i]=lines[i];
-    }
+    loadTextFile(asset.src,Asset.boards,asset.name);
+    console.log(Asset.boards[asset.name]);
     onLoad();
   };
 
   Asset._loadScore= function(asset, onLoad){
-    var data = new XMLHttpRequest();
-    data.open("GET",asset.src,false);
-    data.send(null);
-    var lines = data.responseText.split("\n");
-    Asset.scores[asset.name]={};
-    for(var i=0;i<lines.length;i++){
-      Asset.scores[asset.name][i]=lines[i];
-    }
+    loadTextFile(asset.src,Asset.scores,asset.name);
+    console.log(Asset.scores[asset.name]);
     onLoad();
   };
   //すべてのアセットを読み込む
@@ -246,3 +277,52 @@ function stepbystep_without_otikon(){
   }
   step_count+=1;
 }
+
+// HTTP通信用、共通関数
+function createXMLHttpRequest(cbFunc)
+{
+  var XMLhttpObject = null;
+  try{
+    XMLhttpObject = new XMLHttpRequest();
+  }catch(e){
+    try{
+      XMLhttpObject = new ActiveXObject("Msxml2.XMLHTTP");
+    }catch(e){
+      try{
+        XMLhttpObject = new ActiveXObject("Microsoft.XMLHTTP");
+      }catch(e){
+        return null;
+      }
+    }
+  }
+  if (XMLhttpObject) XMLhttpObject.onreadystatechange = cbFunc;
+  return XMLhttpObject;
+}
+
+function loadTextFile(fName,dst,name)
+{
+  httpObj = createXMLHttpRequest(displayData);
+  if (httpObj)
+  {
+    httpObj.open("GET",fName,false);
+    httpObj.send(null);
+  }
+
+  var lines =httpObj.responseText.split("\n");
+  dst[name]={};
+  for(var i=0;i<lines.length-1;i++){
+    dst[name][i]=lines[i];
+  }
+}
+
+function displayData()
+{
+  if ((httpObj.readyState == 4) && (httpObj.status == 200))
+  {
+    document.getElementById("resultData").innerText = "Loading is sucsess !!";
+  }else{
+    document.getElementById("resultData").innerText = "Loading...";
+  }
+}
+
+

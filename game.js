@@ -1,5 +1,5 @@
 
-  var icolor =['R','G','B','Y','P','H','J','D'];
+  var icolor =['R','B','G','Y','P','H','J','D'];
   // constructor
   var board = function(arg){
     this.boardURL = arg;
